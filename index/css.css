@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Pushster&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #fef3e0;
+}
+
+.toTupButton {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.toTupButton:hover {
+    font-weight: 500;
+    color: #6b6b6b;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* a:visited {
+    text-decoration: none;
+    color: black;
+} */
+
+.A1, .B21, .B111, .B71, .B25, .B83, .B93 {
+    display: none;
+}
+
+.A1 ul li a:hover, .B21 ul li a:hover, .B111 ul li a:hover, .B25 ul li a:hover, .B83 ul li a:hover, .B93 ul li a:hover, .B71 ul li a:hover {
+    color: #7c5c5c;
+    text-decoration: underline;
+}
